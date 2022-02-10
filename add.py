@@ -43,12 +43,10 @@ minus = w + '[' + lg + '-' + w + ']' + rs
 def banner():
     # fancy logo
     b = [
-    _    ____  _   _   _    ____ _  __
-   / \  |  _ \| | | | / \  / ___| |/ /
-  / _ \ | |_) | | | |/ _ \| |   | ' / 
- / ___ \|  _ <| |_| / ___ \ |___| . \ 
-/_/   \_\_| \_\\___/_/   \_\____|_|\_\
 
+       '                 '
+       '   A R U C A K   '
+       '                 '
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{rs}')
